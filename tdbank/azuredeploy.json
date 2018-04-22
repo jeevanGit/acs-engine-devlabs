@@ -1963,7 +1963,7 @@
     },
     "vmsPerStorageAccount": 20,
     "vnetCidr": "[parameters('vnetCidr')]",
-    "vnetCniLinuxPluginsURL": "https://acs-mirror.azureedge.net/cni/azure-vnet-cni-linux-amd64-latest.tgz",
+    "vnetCniLinuxPluginsURL": "https://acs-mirror.azureedge.net/cni/azure-vnet-cni-linux-amd64-v1.0.2.tgz",
     "vnetCniWindowsPluginsURL": "https://acs-mirror.azureedge.net/cni/azure-vnet-cni-windows-amd64-v1.0.2.zip",
     "vnetID": "[resourceId('Microsoft.Network/virtualNetworks',variables('virtualNetworkName'))]",
     "vnetSubnetID": "[concat(variables('vnetID'),'/subnets/',variables('subnetName'))]"
