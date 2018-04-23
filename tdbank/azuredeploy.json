@@ -504,7 +504,7 @@
         "1.12.*",
         "1.11.*"
       ],
-      "defaultValue": "1.13.*",
+      "defaultValue": "17.05.*",
       "metadata": {
         "description": "The docker engine version to install."
       },
@@ -1048,7 +1048,6 @@
       "type": "int"
     },
     "nameSuffix": {
-      "defaultValue": "36955652",
       "metadata": {
         "description": "A string hash of the master DNS name to uniquely identify the cluster."
       },
